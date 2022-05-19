@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:#	
+name = hsp9513
+email = hsp9513@naver.com
+
+[alias]
+s = status
+d = difftool -y -t vimdiff
+l = log --all --graph --pretty=format:'%C(red)%h%Creset - %C(green)%ci%Creset by %C(bold blue)%an %Creset %s %C(auto)%d%Creset' --abbrev-commit
