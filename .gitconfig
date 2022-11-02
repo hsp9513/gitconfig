@@ -7,4 +7,5 @@ email = hsp9513@naver.com
 [alias]
 s = status
 d = difftool -y -t vimdiff
+dn= diff --name-only
 l = log --all --graph --pretty=format:'%C(red)%h%Creset - %C(green)%ci%Creset by %C(bold blue)%an %Creset %s %C(auto)%d%Creset' --abbrev-commit
